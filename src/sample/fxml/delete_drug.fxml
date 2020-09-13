@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.delete_drug">
+   <children>
+      <AnchorPane fx:id="anchor" layoutX="10.0" layoutY="10.0" prefHeight="425.0" prefWidth="704.0" styleClass="anchor-pane" stylesheets="@../styles/medic.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="97.0" layoutY="92.0" prefHeight="23.0" prefWidth="124.0" text="PRODUCT NAME" />
+            <ComboBox fx:id="Product_Name" layoutX="260.0" layoutY="91.0" onAction="#Product_Name" prefWidth="150.0" />
+            <TableView fx:id="tableView" layoutX="87.0" layoutY="159.0" prefHeight="128.0" prefWidth="549.0">
+               <columns>
+                  <TableColumn fx:id="productId" prefWidth="75.0" text="Product ID" />
+                  <TableColumn fx:id="ProductName" prefWidth="91.0" text="Product Name" />
+                  <TableColumn fx:id="CompanyName" prefWidth="110.0" text="Company Name" />
+                  <TableColumn fx:id="ProductCategory" prefWidth="116.0" text="Product Category" />
+                  <TableColumn fx:id="Quantity" prefWidth="61.0" text="Quantity" />
+                  <TableColumn fx:id="UnitPrice" prefWidth="90.0" text="Unit Price" />
+               </columns>
+            </TableView>
+            <Button layoutX="61.0" layoutY="322.0" mnemonicParsing="false" onAction="#DrugDelete" prefHeight="42.0" prefWidth="124.0" text="Delete" />
+            <Button layoutX="318.0" layoutY="323.0" mnemonicParsing="false" onAction="#back_button" prefHeight="42.0" prefWidth="124.0" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

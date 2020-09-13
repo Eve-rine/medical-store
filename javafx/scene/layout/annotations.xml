@@ -1,0 +1,6 @@
+<root>
+    <item name='javafx.scene.layout.Pane javafx.collections.ObservableList&lt;javafx.scene.Node&gt; getChildren()'>
+        <annotation name='java.lang.Deprecated'/>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+</root>

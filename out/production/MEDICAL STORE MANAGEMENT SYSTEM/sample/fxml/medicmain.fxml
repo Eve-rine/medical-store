@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.medicmain">
+   <children>
+      <AnchorPane layoutX="7.0" prefHeight="400.0" prefWidth="593.0" styleClass="anchor-pane" stylesheets="@../styles/medic.css">
+         <children>
+            <VBox layoutY="72.0" prefHeight="328.0" prefWidth="146.0">
+               <children>
+                  <Button fx:id="Medicines" mnemonicParsing="false" onAction="#medicines" prefHeight="23.0" prefWidth="146.0" stylesheets="@../styles/medic.css" text="Medicines">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin></Button>
+                  <Button fx:id="Companies" mnemonicParsing="false" prefHeight="42.0" prefWidth="152.0" stylesheets="@../styles/medic.css" text="Companies">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Button>
+                  <Button fx:id="ViewSales" mnemonicParsing="false" prefHeight="42.0" prefWidth="147.0" stylesheets="@../styles/medic.css" text="View Sale Records">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Button>
+                  <Button fx:id="NewSales" mnemonicParsing="false" prefHeight="42.0" prefWidth="147.0" stylesheets="@../styles/medic.css" text="New Sales">
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin></Button>
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="143.0" stylesheets="@../styles/medic.css" text="Change  Password">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" stylesheets="@../styles/medic.css" text="Create a User">
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin></Button>
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="148.0" stylesheets="@../styles/medic.css" text="Log Out" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

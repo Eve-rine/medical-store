@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="anchor-pane" stylesheets="@../styles/medic.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.medicines">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="410.0" prefWidth="594.0">
+         <children>
+            <Label layoutX="134.0" layoutY="269.0" prefHeight="39.0" prefWidth="136.0" text="PRODUCT PRICE" />
+            <Label layoutX="136.0" layoutY="218.0" prefHeight="39.0" prefWidth="136.0" text="PRODUCT QUANTITY" />
+            <Label layoutX="136.0" layoutY="74.0" prefHeight="39.0" prefWidth="136.0" text="PRODUCT NAME" />
+            <Label layoutX="134.0" layoutY="173.0" prefHeight="39.0" prefWidth="136.0" text="PRODUCT CATEGORY" />
+            <Label layoutX="136.0" layoutY="120.0" prefHeight="39.0" prefWidth="136.0" text="COMPANY NAME" />
+            <TextField layoutX="293.0" layoutY="81.0" />
+            <TextField layoutX="293.0" layoutY="225.0" />
+            <TextField layoutX="293.0" layoutY="276.0" />
+            <ComboBox layoutX="293.0" layoutY="127.0" prefWidth="150.0" />
+            <ComboBox layoutX="293.0" layoutY="180.0" prefWidth="150.0" />
+            <Button layoutX="84.0" layoutY="336.0" mnemonicParsing="false" text="BACK" />
+            <Button layoutX="475.0" layoutY="336.0" mnemonicParsing="false" text="INSERT" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+.root{-fx-background-color:#ffffcc;}
+.button:hover{
+-fx-background-color:#ffffcc;
+-fx-border-width: 1px;
+-fx-border-radius: 5px;
+-fx-text-fill:#8A4117;
+-fx-border-style: solid;
+-fx-border-color:#8A4117;
+-fx-scale-y: 1.1;
+}
+
+.button{
+-fx-background-color:#ffffff;
+-fx-border-radius: 5px;
+  -fx-border-width: 1px;
+  -fx-border-style: solid;
+  -fx-border-color: #ffffcc;
+  -fx-text-fill: #000000;
+  -fx-fill-width: true;
+  -fx-cursor:hand;
+  -fx-padding: 10px 10px 10px 10px;
+  -fx-font-size: 14px;
+  -fx-text-alignment: left;
+}
+.button:pressed{
+-fx-background-color:#8A4117;
+-fx-scale-y: 0.9;
+-fx-scale-y: 0.9;
+}
+.tableView{
+-fx-background-color:#00ff00;}
+
+  .svg-container{
+    -fx-background-color:#ffffcc;
+    -fx-text-alignment:center;
+    -fx-fill: #fff;
+    -fx-height: 15px;
+    -fx-border-color:#ffffff;
+     -fx-alignment: center;}
+     .image{
+     -fx-background-radius:5;}
+
+     .anchor-pane{-fx-background-color:#0099cc;}
